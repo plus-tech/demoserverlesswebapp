@@ -1,0 +1,16 @@
+{
+  "resourceName": "swastorage",
+  "policyUUID": "6fea0492",
+  "bucketName": "swastoragebucket",
+  "storageAccess": "authAndGuest",
+  "guestAccess": [
+    "READ"
+  ],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}

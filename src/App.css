@@ -15,11 +15,11 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: auto;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: right;
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+
+#mainMenuBtn {
+  margin:3px;
+}
+
+.custom-card-class {
+  height: 450px;
+  width: 300px;
+}
+.styled-text{
+  text-align: left;
+}
+/* .colorful-button{
+  float: right;
+} */
+/*
+#btnViewCart, #btnSignout {
+  color: #eeee;
+  variation: link;
+  size: small;
+  margin-left: 3px;
+}
+
+.amplify-button:hover {
+  color: #282c34;
+}
+*/

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "paths": {
+    "/cart/items": {
+      "name": "/cart/items",
+      "lambdaFunction": "DemoCartLambda",
+      "permissions": {
+        "setting": "protected",
+        "auth": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ],
+        "guest": [
+          "read"
+        ]
+      }
+    },
+    "/product/items": {
+      "name": "/product/items",
+      "lambdaFunction": "DemoProductLambda",
+      "permissions": {
+        "setting": "protected",
+        "auth": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ],
+        "guest": [
+          "read"
+        ]
+      }
+    }
+  }
+}

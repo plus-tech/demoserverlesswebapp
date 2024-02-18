@@ -37,8 +37,8 @@ def handler(event, context):
         # Get all items
         if event['httpMethod'] == 'GET':
             try:
-                # tablename = dictparam['table']
-                tablename = 'Product'
+                # tablename = 'Product'
+                tablename = dictparam['table']
 
                 client = bo.client('dynamodb')
                 response = client.scan(
@@ -86,8 +86,8 @@ def handler(event, context):
         # Get an item
         if event['httpMethod'] == 'GET':
             try:
-                # tablename = dictparam['table']
-                tablename = 'Product'
+                # tablename = 'Product'
+                tablename = dictparam['table']
                 productid = dictparam['productid']
 
                 client = bo.client('dynamodb')

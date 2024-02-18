@@ -69,6 +69,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
+
+### `npm i -s react-router-dom`
+Install react-router-dom.
+
+### `npm i @chakra-ui/react @emotion/react @emotion/styled framer-motion`
+Install Chakra UI.
+
 ### Amplify
 
 ### `npm install -g @aws-amplify/cli`
@@ -82,9 +89,6 @@ Install Amplify libraries.
 
 ### `npm install @aws-amplify/ui-react`
 Install Amplify UI.
-
-### `npm i @chakra-ui/react @emotion/react @emotion/styled framer-motion`
-Install Chakra UI.
 
 ### `amplify add auth`
 Add Cognito user pool to the app.

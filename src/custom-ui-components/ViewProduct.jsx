@@ -63,7 +63,6 @@ const ViewProduct = () => {
                 <Image
                   alt="Road to milford sound"
                   src= {item.imgurl}
-                  //width="33%"
                 />
                 <Flex
                   direction="column"
@@ -88,7 +87,7 @@ const ViewProduct = () => {
                 </Flex>
                 <Button variation="primary"
                   onClick={() => {AddCartItem(item);
-                    let msg = item.productid + " added to your cart";
+                    let msg = '"' + item.name + '"'  + " has been added to your cart";
                     toast({description: msg, status: 'info', duration: 3000, isClosable: true,})}
                   } isFullWidth>
                 Add to cart

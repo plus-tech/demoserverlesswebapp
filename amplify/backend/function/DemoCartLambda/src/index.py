@@ -35,11 +35,10 @@ def handler(event, context):
     if event['path'] == '/cart/items':
         #
         # Get all items
-        if event['httpMethod'] == 'GET': # dictparam is not None and event['httpMethod'] == 'GET':
-            #print('dictparam')
-            # print('dictparam: ', dictparam)
+        if event['httpMethod'] == 'GET':
             try:
-                tablename = 'UserCart'
+                # tablename = 'UserCart'
+                tablename = dictparam['table']
                 cartid = dictparam['cartid']
 
                 client = bo.client('dynamodb')
@@ -84,7 +83,8 @@ def handler(event, context):
         # Get an item
         if event['httpMethod'] == 'GET':
             try:
-                tablename = 'UserCart'
+                # tablename = 'UserCart'
+                tablename = dictparam['table']
                 cartid = dictparam['cartid']
                 productid = dictparam['productid']
 
@@ -121,7 +121,8 @@ def handler(event, context):
         # Add or Update an item
         elif event['httpMethod'] == 'POST':
             try:
-                tablename = 'UserCart'
+                # tablename = 'UserCart'
+                tablename = dictparam['table']
                 cartid = dictparam['cartid']
                 productid = dictparam['productid']
                 quantity = dictparam['quantity']

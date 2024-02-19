@@ -8,7 +8,7 @@
             "Arn"
           ],
           "category": "function",
-          "resourceName": "DemoCartLambda"
+          "resourceName": "DemoProductLambda"
         },
         {
           "attributes": [
@@ -16,7 +16,7 @@
             "Arn"
           ],
           "category": "function",
-          "resourceName": "DemoProductLambda"
+          "resourceName": "DemoCartLambda"
         }
       ],
       "providerPlugin": "awscloudformation",
@@ -24,7 +24,7 @@
     }
   },
   "auth": {
-    "demoserverlesswebappbfc754f6": {
+    "demoserverlesswebapp1e89ccb3": {
       "customAuth": false,
       "dependsOn": [],
       "frontendAuthConfig": {
@@ -37,12 +37,11 @@
           "passwordPolicyMinLength": 8
         },
         "signupAttributes": [
-          "EMAIL"
+          "EMAIL",
+          "PREFERRED_USERNAME"
         ],
         "socialProviders": [],
-        "usernameAttributes": [
-          "EMAIL"
-        ],
+        "usernameAttributes": [],
         "verificationMechanisms": [
           "EMAIL"
         ]
@@ -54,7 +53,6 @@
   "function": {
     "DemoCartLambda": {
       "build": true,
-      "dependsOn": [],
       "providerPlugin": "awscloudformation",
       "service": "Lambda"
     },

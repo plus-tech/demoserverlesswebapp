@@ -89,12 +89,12 @@
         "RoleName": {
           "Fn::If": [
             "ShouldNotCreateEnvResources",
-            "demoserverlesswebappLambdaRoleb3b9a152",
+            "demoserverlesswebappLambdaRolea1b657ff",
             {
               "Fn::Join": [
                 "",
                 [
-                  "demoserverlesswebappLambdaRoleb3b9a152",
+                  "demoserverlesswebappLambdaRolea1b657ff",
                   "-",
                   {
                     "Ref": "env"

@@ -1,6 +1,6 @@
 {
   "resourceName": "swastorage",
-  "policyUUID": "6fea0492",
+  "policyUUID": "6d7c4f24",
   "bucketName": "swastoragebucket",
   "storageAccess": "authAndGuest",
   "guestAccess": [

@@ -1,40 +1,40 @@
 {
   "dev": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-demoserverlesswebapp-dev-235408-authRole",
-      "UnauthRoleArn": "arn:aws:iam::058443574164:role/amplify-demoserverlesswebapp-dev-235408-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::058443574164:role/amplify-demoserverlesswebapp-dev-235408-authRole",
+      "AuthRoleName": "amplify-demoserverlesswebapp-dev-234950-authRole",
+      "UnauthRoleArn": "arn:aws:iam::058443574164:role/amplify-demoserverlesswebapp-dev-234950-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::058443574164:role/amplify-demoserverlesswebapp-dev-234950-authRole",
       "Region": "us-west-2",
-      "DeploymentBucketName": "amplify-demoserverlesswebapp-dev-235408-deployment",
-      "UnauthRoleName": "amplify-demoserverlesswebapp-dev-235408-unauthRole",
-      "StackName": "amplify-demoserverlesswebapp-dev-235408",
-      "StackId": "arn:aws:cloudformation:us-west-2:058443574164:stack/amplify-demoserverlesswebapp-dev-235408/43fea030-beb6-11ee-a4af-0a9566ef85fb",
-      "AmplifyAppId": "d74tk0z6wqdji",
-      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-demoserverlesswebapp-dev-235408-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
+      "DeploymentBucketName": "amplify-demoserverlesswebapp-dev-234950-deployment",
+      "UnauthRoleName": "amplify-demoserverlesswebapp-dev-234950-unauthRole",
+      "StackName": "amplify-demoserverlesswebapp-dev-234950",
+      "StackId": "arn:aws:cloudformation:us-west-2:058443574164:stack/amplify-demoserverlesswebapp-dev-234950/ceb732e0-cda3-11ee-bb3a-06c7b8df519f",
+      "AmplifyAppId": "d39hcauginj2dj",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-demoserverlesswebapp-dev-234950-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
     },
     "categories": {
       "auth": {
-        "demoserverlesswebappbfc754f6": {}
+        "demoserverlesswebapp1e89ccb3": {}
+      },
+      "storage": {
+        "swastorage": {}
       },
       "function": {
         "DemoProductLambda": {
-          "deploymentBucketName": "amplify-demoserverlesswebapp-dev-235408-deployment",
-          "s3Key": "amplify-builds/DemoProductLambda-3575684946505a765971-build.zip"
+          "deploymentBucketName": "amplify-demoserverlesswebapp-dev-234950-deployment",
+          "s3Key": "amplify-builds/DemoProductLambda-6f634738552b71325868-build.zip"
         },
         "DemoCartLambda": {
-          "deploymentBucketName": "amplify-demoserverlesswebapp-dev-235408-deployment",
-          "s3Key": "amplify-builds/DemoCartLambda-6d6a396268667467514a-build.zip"
+          "deploymentBucketName": "amplify-demoserverlesswebapp-dev-234950-deployment",
+          "s3Key": "amplify-builds/DemoCartLambda-577565566f466c62435a-build.zip"
         }
       },
       "api": {
         "DemoSWAApi": {}
       },
-      "storage": {
-        "swastorage": {}
-      },
       "hosting": {
         "amplifyhosting": {
-          "appId": "d74tk0z6wqdji",
+          "appId": "d39hcauginj2dj",
           "type": "manual"
         }
       }

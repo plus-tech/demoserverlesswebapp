@@ -1,10 +1,10 @@
 {
   "version": "1",
   "cognitoConfig": {
-    "identityPoolName": "demoserverlesswebappbfc754f6_identitypool_81f59e5e",
-    "allowUnauthenticatedIdentities": false,
-    "resourceNameTruncated": "demosebfc754f6",
-    "userPoolName": "demoserverlesswebappbfc754f6_userpool_bfc754f6",
+    "identityPoolName": "demoserverlesswebapp1e89ccb3_identitypool_1e89ccb3",
+    "allowUnauthenticatedIdentities": true,
+    "resourceNameTruncated": "demose1e89ccb3",
+    "userPoolName": "demoserverlesswebapp1e89ccb3_userpool_1e89ccb3",
     "autoVerifiedAttributes": [
       "email"
     ],
@@ -20,29 +20,25 @@
     "passwordPolicyMinLength": 8,
     "passwordPolicyCharacters": [],
     "requiredAttributes": [
-      "email"
+      "email",
+      "preferred_username"
     ],
     "aliasAttributes": [],
     "userpoolClientGenerateSecret": false,
     "userpoolClientRefreshTokenValidity": 30,
     "userpoolClientWriteAttributes": [
-      "preferred_username",
       "email"
     ],
     "userpoolClientReadAttributes": [
-      "email",
-      "name",
-      "preferred_username"
-    ],
-    "userpoolClientLambdaRole": "demosebfc754f6_userpoolclient_lambda_role",
-    "userpoolClientSetAttributes": true,
-    "sharedId": "bfc754f6",
-    "resourceName": "demoserverlesswebappbfc754f6",
-    "authSelections": "identityPoolAndUserPool",
-    "useDefault": "manual",
-    "usernameAttributes": [
       "email"
     ],
+    "userpoolClientLambdaRole": "demose1e89ccb3_userpoolclient_lambda_role",
+    "userpoolClientSetAttributes": false,
+    "sharedId": "1e89ccb3",
+    "resourceName": "demoserverlesswebapp1e89ccb3",
+    "authSelections": "identityPoolAndUserPool",
+    "useDefault": "default",
+    "triggers": {},
     "userPoolGroupList": [],
     "serviceName": "Cognito",
     "usernameCaseSensitive": false,
@@ -60,16 +56,6 @@
       ]
     },
     "breakCircularDependency": true,
-    "dependsOn": [],
-    "userPoolGroups": false,
-    "adminQueries": false,
-    "triggers": {},
-    "hostedUI": false,
-    "parentStack": {
-      "Ref": "AWS::StackId"
-    },
-    "permissions": [],
-    "authProviders": [],
-    "thirdPartyAuth": false
+    "dependsOn": []
   }
 }

@@ -1,9 +1,9 @@
 {
   "version": 1,
   "paths": {
-    "/cart/items": {
-      "name": "/cart/items",
-      "lambdaFunction": "DemoCartLambda",
+    "/product/items": {
+      "name": "/product/items",
+      "lambdaFunction": "DemoProductLambda",
       "permissions": {
         "setting": "protected",
         "auth": [
@@ -17,9 +17,9 @@
         ]
       }
     },
-    "/product/items": {
-      "name": "/product/items",
-      "lambdaFunction": "DemoProductLambda",
+    "/cart/items": {
+      "name": "/cart/items",
+      "lambdaFunction": "DemoCartLambda",
       "permissions": {
         "setting": "protected",
         "auth": [

@@ -1,3 +1,5 @@
+### Blog: [AWS - Build A Serverless Web App](https://plus-tec.blogspot.com/2024/02/aws-build-serverless-web-app.html).
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
